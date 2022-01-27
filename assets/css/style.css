@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: QBold;
+    src: url("../fonts/Quicksand-Bold.ttf");
+}
+
+@font-face {
+    font-family: QRegular;
+    src: url("../fonts/Quicksand-Regular.ttf");
+}
+
+@font-face {
+    font-family: QMedium;
+    src: url("../fonts/Quicksand-Medium.ttf");
+}
+
+.text-bold {
+    font-family: QBold;
+}
+
+.text-regular {
+    font-family: QRegular;
+}
+
+.text-medium {
+    font-family: QMedium;
+}
+
+.text-primary {
+    color: #272042;
+}
+
+.text-secondary {
+    color: #8B8BA5;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    flex: 1;
+    min-height: 1rem;
+    display: flex;
+    padding: 50px 100px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 28px;
+    width: 25%;
+}
+
+.logo img {
+    margin-right: 10px;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+}
+
+.list-menu {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 25px;
+    font-size: 18px;
+}
+
+.btn {
+    width: max-content;
+    font-size: 18px;
+    display: inline-block;
+    padding: 14px 31px;
+    border-radius: 25px 23px 15px 18px;
+}
+
+.btn-primary {
+    background: #FBE0DC;
+}
+
+.btn-secondary {
+    background: #F7C531;
+}
+
+section#home {
+    padding: 80px 145px;
+    display: flex;
+    flex-direction: row;
+    min-height: max-content;
+}
+
+.home-left {
+    width: 45%;
+    padding-right: 80px;
+}
+
+.home-right {
+    flex: 1;
+}
+
+.home-right img {
+    width: 100%;
+}
+
+.home-title {
+    font-size: 46px;
+    line-height: 70px;
+    margin-bottom: 10px;
+}
+
+.home-description {
+    font-size: 20px;
+    line-height: 34px;
+    margin-bottom: 40px;
+}
+
+section#product {
+    text-align: center;
+    min-height: 100vh;
+}
+
+.product-subtitle {
+    font-size: 20px;
+}
+
+.product-title {
+    font-size: 32px;
+    margin: 10px 0 30px 0;
+}
