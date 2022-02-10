@@ -242,3 +242,56 @@ section#product {
     left: -9px;
     border-radius: 30% 5% 15% 25%;
 }
+
+section#testimoni{
+    margin: 155px 302px 100px 302px;
+    text-align: center;
+    position: relative;
+}
+
+#testimoni > img{
+    position: absolute;
+    top: -60px;
+    left: -50px;
+    z-index: -1;
+}
+
+#testimoni .item .quotes {
+    font-size: 36px;
+    line-height: 50px;
+}
+
+#testimoni .user-testimoni{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#testimoni .user-testimoni img{
+    width: 90px;
+    margin-right: 20px;
+}
+#testimoni .user-testimoni .user-details{
+    text-align: left;
+}
+#testimoni .user-testimoni .user-details p{
+    margin-bottom: 6px;
+}
+
+section#statistic {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#statistic .item p:nth-child(1){
+    font-size: 32px;
+}
+
+#statistic .item p:nth-child(2){
+    font-size: 20px;
+}
